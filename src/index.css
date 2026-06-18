@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #05060a;
+  overflow-x: hidden;
+  color: white;
+  font-family: Inter, system-ui;
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@keyframes float1 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(100px, -80px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes float2 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(-120px, 60px); }
+  100% { transform: translate(0,0); }
+}
+
+@keyframes float3 {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(80px, 100px); }
+  100% { transform: translate(0,0); }
+}
+
+.animate-float1 { animation: float1 18s ease-in-out infinite; }
+.animate-float2 { animation: float2 22s ease-in-out infinite; }
+.animate-float3 { animation: float3 26s ease-in-out infinite; }
+
+@keyframes noise {
+  0% { transform: translate(0,0); }
+  10% { transform: translate(-5%, -5%); }
+  20% { transform: translate(-10%, 5%); }
+  30% { transform: translate(5%, -10%); }
+  40% { transform: translate(-5%, 15%); }
+  50% { transform: translate(-10%, 5%); }
+  60% { transform: translate(15%, 0); }
+  70% { transform: translate(0, 10%); }
+  80% { transform: translate(-15%, 0); }
+  90% { transform: translate(10%, 5%); }
+  100% { transform: translate(0,0); }
+}
+
+.animate-noise {
+  animation: noise 0.6s steps(2) infinite;
+}
