@@ -71,7 +71,7 @@ export default function Floppy() {
       >
         <a
           href="https://discord.com/oauth2/authorize?client_id=1499819011943436288"
-          download
+          target="_blank"
           className="
             px-6 py-3
             rounded-xl

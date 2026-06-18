@@ -71,7 +71,7 @@ export default function Floppy() {
       >
         <a
           href="https://floppy-kappa.vercel.app"
-          download
+          target="_blank"
           className="
             px-6 py-3
             rounded-xl
