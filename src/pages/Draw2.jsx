@@ -70,7 +70,7 @@ export default function Draw2() {
         className="mt-8 flex gap-4"
       >
         <a
-          href="/downloads/Draw2.zip"
+          href="/downloads/draw2.zip"
           download
           className="
             px-6 py-3
