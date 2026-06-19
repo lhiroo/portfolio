@@ -9,8 +9,7 @@ export default function About() {
 
       <Reveal>
         <p className="text-white/60 leading-relaxed">
-          Developer passionné par les systèmes embarqués, le web moderne,
-          la cybersécurité et les interfaces futuristes.
+          Tahan Farhan
         </p>
       </Reveal>
     </section>
