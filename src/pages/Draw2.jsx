@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import Magnetic from "../components/Magnetic"
 
 const container = {
   hidden: {},
@@ -69,7 +70,7 @@ export default function Draw2() {
         variants={item}
         className="mt-8 flex gap-4"
       >
-        <a
+        <Magnetic><a
           href="/downloads/draw2.zip"
           download
           className="
@@ -81,10 +82,10 @@ export default function Draw2() {
             hover:scale-105
           "
         >
-          Download
-        </a>
+          Download draw2
+        </a></Magnetic>
 
-        <a
+        <Magnetic><a
           href="https://github.com/lhiroo/Draw2"
           target="_blank"
           rel="noopener noreferrer"
@@ -98,7 +99,7 @@ export default function Draw2() {
           "
         >
           Source Code
-        </a>
+        </a></Magnetic>
       </motion.div>
     </motion.div>
   );

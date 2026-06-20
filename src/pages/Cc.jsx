@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import Magnetic from "../components/Magnetic"
 
 const container = {
   hidden: {},
@@ -46,14 +47,14 @@ export default function Floppy() {
         variants={item}
         className="text-4xl font-bold mt-6"
       >
-        Floppy App
+        C.C
       </motion.h1>
 
       <motion.p
         variants={item}
         className="mt-4 text-white/60"
       >
-        A simple note webapp
+        Multi-function Discord bot.
       </motion.p>
 
       <motion.div
@@ -69,7 +70,7 @@ export default function Floppy() {
         variants={item}
         className="mt-8 flex gap-4"
       >
-        <a
+        <Magnetic><a
           href="https://discord.com/oauth2/authorize?client_id=1499819011943436288"
           target="_blank"
           className="
@@ -82,9 +83,9 @@ export default function Floppy() {
           "
         >
           Add C.C to your server
-        </a>
+        </a></Magnetic>
 
-        <a
+        <Magnetic><a
           href="https://github.com/lhiroo/C.C"
           target="_blank"
           rel="noopener noreferrer"
@@ -98,7 +99,7 @@ export default function Floppy() {
           "
         >
           Source Code
-        </a>
+        </a></Magnetic>
       </motion.div>
     </motion.div>
   );
