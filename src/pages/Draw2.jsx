@@ -100,6 +100,21 @@ export default function Draw2() {
         >
           Source Code
         </a></Magnetic>
+<Magnetic><a
+          href="/downloads/geopolitical_situation_slides(1).pptx"
+          download
+          className="
+            px-6 py-3
+            rounded-xl
+            bg-indigo-500
+            hover:bg-indigo-600
+            transition-all duration-300
+            hover:scale-105
+          "
+        >
+          Download slides anglais
+        </a></Magnetic>
+
       </motion.div>
     </motion.div>
   );
