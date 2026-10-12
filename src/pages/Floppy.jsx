@@ -70,7 +70,7 @@ export default function Floppy() {
         variants={item}
         className="mt-8 flex gap-4"
       >
-        <Magnetic><a
+       {/* <Magnetic><a
           href="https://floppy-kappa.vercel.app"
           target="_blank"
           className="
@@ -83,7 +83,7 @@ export default function Floppy() {
           "
         >
           Visit Floppy
-        </a></Magnetic>
+        </a></Magnetic>*/}
 
         <Magnetic><a
           href="https://github.com/lhiroo/Floppy"
