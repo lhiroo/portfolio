@@ -101,7 +101,7 @@ export default function Draw2() {
           Source Code
         </a></Magnetic>
 <Magnetic><a
-          href="/downloads/geopolitical_situation_slides(1).pptx"
+          href="/downloads/geopolitical_situatio.pptx"
           download
           className="
             px-6 py-3
